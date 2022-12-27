@@ -29,5 +29,12 @@
         android:id="@+id/bayarFragment"
         android:name="com.pcs.apptoko.BayarFragment"
         android:label="fragment_bayar"
-        tools:layout="@layout/fragment_bayar" />
+        tools:layout="@layout/fragment_bayar" >
+        <argument
+            android:name="argsCart"
+            app:argType="com.pcs.apptoko.response.cart.Cart" />
+        <argument
+            android:name="argsTotal"
+            app:argType="string"/>
+    </fragment>
 </navigation>
